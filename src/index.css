@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.max-width{
+  @apply max-w-[1200px] mx-auto px-3 md:px-5 lg:px-7 2xl:px-0 
+}
