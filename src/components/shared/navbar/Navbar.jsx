@@ -23,6 +23,7 @@ const Navbar = () => {
                 {/* navlink here */}
                 <ul className={`absolute md:relative z-20 md:flex items-center gap-6 font-semibold ${isMenuOpen ? ' top-7 right-0 w-full min-h-[30vh] bg-[#A4895C] md:hidden p-5 space-y-3' : 'hidden'}`}>
                     <li className='border-b md:border-none'><NavLink to="/" className={({isActive})=> isActive ? 'text-white' : 'text-black'}>Home</NavLink></li>
+                    <li className='border-b md:border-none'><NavLink to="/disease" className={({isActive})=> isActive ? 'text-white' : 'text-black'}>Disease</NavLink></li>
                     <li className='border-b md:border-none'><NavLink to="/services" className={({isActive})=> isActive ? 'text-white' : 'text-black'}>Our Services</NavLink></li>
                     <li className='border-b md:border-none'><NavLink to="/about" className={({isActive})=> isActive ? 'text-white' : 'text-black'}>About</NavLink></li>
                     <li className='border-b md:border-none'><NavLink to="/contacts" className={({isActive})=> isActive ? 'text-white' : 'text-black'}>Contacts</NavLink></li>
